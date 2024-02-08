@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 10% 5%;
+}
+.screen{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A3BDBB;  
+}
+.screen--left{
+    width: 40%;
+    height: 80%;
+    background-color: #AE261C;
+    position: relative;
+    padding: 1% 3%;
+    line-height: 2em;
+}
+.screen--right{
+    width: 25%;
+    height: 80%; 
+    background-color: #F3B353;
+    position: relative;
+    padding: 1% 3%;
+}
+.screen__image{
+    position: absolute; 
+    left: 45%;
+    top: 36%;
+    margin-bottom:-5%;
+}
+img{
+    width: 70%;
+}
+textarea, input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 40%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: #AE261C;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color: white;
+    color:white;
+}
+::placeholder{
+    color: white;
+    opacity:0.4;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px; 
+    color: white;
+}
+button{
+    width: 40%;
+    margin-top: 7%;
+    border-radius: 100px;
+    padding: 2% 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    background: #548088;
+    border: solid #548088;
+    position: relative;
+    left:25%;
+    margin-bottom:25%; /*It increased the height of the div automatically!*/
+}
