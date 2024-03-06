@@ -75,6 +75,10 @@ label{
     color: white;
 }
 
+label:hover{
+    color: #99B5B3;
+}
+
 button{
     width: 50%;
     margin: 7% 0 0 15%;
