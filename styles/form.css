@@ -59,8 +59,16 @@ textarea, input{
     margin-top: 0.5rem;
 }
 
+textarea:hover{
+    color: #99B5B3;
+}
+
 input{
     padding-bottom: 1rem;
+}
+
+input:hover{
+    color: #99B5B3;
 }
 
 ::placeholder{
@@ -73,10 +81,6 @@ label{
     font-size: 18px;
     letter-spacing: 1px; 
     color: white;
-}
-
-input:hover{
-    color: #99B5B3;
 }
 
 button{
